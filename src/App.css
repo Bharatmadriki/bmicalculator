@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('C:\Users\Bharat\OneDrive\Desktop\REACTBMI\mybmi\public\heightweight.jpg');
+  background-size: cover;       /* scales image to cover the whole area */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat; /* avoids repeating */
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.weight,
+.height {
+  display:block;
+  flex-direction: column;
+  text-align: left;
+  
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #4caf50;
+  border: 2px solid #4caf50;
+}
+
+.btn-outline:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.center {
+  margin-top: 20px;
+  color: #333;
+}
+h2{
+    color: #333;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
